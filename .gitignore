@@ -14,3 +14,5 @@ _ReSharper*
 */NhibernateProfiler*/tools
 packages
 /TestStack.FluentMVCTesting.Example/App_Data
+TestStack.FluentMVCTesting.Mvc4/TestStack.FluentMVCTesting.Mvc4.EP.3.0.0.1000.nupkg
+TestStack.FluentMVCTesting.sln.GhostDoc.xml

@@ -1,49 +1,28 @@
-﻿<?xml version='1.0' encoding='UTF-8'?> 
-<package>
-  <metadata>
-    <id>
-       TestStack.FluentMVCTesting.Mvc4
-    </id>
-    <version>
-       1.0.0
-    </version>
-    <authors>
-       Robert Moore, TestStack
-    </authors>
-    <description>
-      Simple, terse, fluent unit testing of ASP.NET MVC Controllers.
-      ASP.NET MVC 4 version; install FluentMVCTesting if you are using MVC5 or FluentMVCTesting.Mvc3 if you are using MVC3.
-    </description>
-    <projectUrl>
-      https://github.com/TestStack/TestStack.FluentMVCTesting
-    </projectUrl>
-    <licenseUrl>
-      https://github.com/TestStack/TestStack.FluentMVCTesting/blob/master/LICENSE.txt
-    </licenseUrl>
-    <iconUrl>
-      https://raw.github.com/TestStack/TestStack.FluentMVCTesting/master/logo.png
-    </iconUrl>
-    <tags>
-       fluent, mvc, asp.net, testing, terse
-    </tags>
-    <language>
-       en-US 
-    </language>
-    <dependencies>
-      <dependency id="Microsoft.AspNet.Mvc" version="4.0.30506" />
-    </dependencies>
-    <releaseNotes>
-      For breaking changes from previous versions see
-      https://github.com/TestStack/TestStack.FluentMVCTesting/blob/master/BREAKING_CHANGES.md
-    </releaseNotes>
-    <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System.Web" targetFramework="net40" />
-    </frameworkAssemblies>
-  </metadata>
-  <files>
-     <file src="bin\Release\TestStack.FluentMVCTesting.Mvc4.dll" target="lib\NET40" />
-     <file src="bin\Release\TestStack.FluentMVCTesting.Mvc4.pdb" target="lib\NET40" />
-     <file src="..\TestStack.FluentMvcTesting\**\*.cs" exclude="..\TestStack.FluentMvcTesting\obj\**\*.*" target="src" />
-    <file src="..\TestStack.FluentMvcTesting\readme.txt" target="" />
-  </files>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>TestStack.FluentMVCTesting.Mvc4.EP</id>
+        <version>3.0.0-EP</version>
+        <authors>Robert Moore,TestStack</authors>
+        <owners>Robert Moore,TestStack</owners>
+        <licenseUrl>https://github.com/TestStack/TestStack.FluentMVCTesting/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/TestStack/TestStack.FluentMVCTesting</projectUrl>
+        <iconUrl>https://raw.github.com/TestStack/TestStack.FluentMVCTesting/master/logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Simple, terse, fluent unit testing of ASP.NET MVC Controllers.
+      ASP.NET MVC 4 version; install FluentMVCTesting if you are using MVC5 or FluentMVCTesting.Mvc3 if you are using MVC3.</description>
+        <releaseNotes>For breaking changes from previous versions see
+      https://github.com/TestStack/TestStack.FluentMVCTesting/blob/master/BREAKING_CHANGES.md</releaseNotes>
+        <language>en-US</language>
+        <tags>fluent, mvc, asp.net, testing, terse</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Mvc" version="4.0.30506" />
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.0" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="BIN\RELEASE\TestStack.FluentMVCTesting.Mvc4.dll" target="lib\NET40\TestStack.FluentMVCTesting.Mvc4.EP.dll" />
+    </files>
 </package>
